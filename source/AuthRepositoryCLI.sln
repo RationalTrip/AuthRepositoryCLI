@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthRepositoryCLI", "AuthRepositoryCLI\AuthRepositoryCLI.csproj", "{2937E574-3BCE-40AF-AC6E-5C0C26C0B418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthRepository", "AuthRepository\AuthRepository.csproj", "{C8F6577F-C380-443D-9AAB-FA8032F5AEAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2937E574-3BCE-40AF-AC6E-5C0C26C0B418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2937E574-3BCE-40AF-AC6E-5C0C26C0B418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2937E574-3BCE-40AF-AC6E-5C0C26C0B418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2937E574-3BCE-40AF-AC6E-5C0C26C0B418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F6577F-C380-443D-9AAB-FA8032F5AEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F6577F-C380-443D-9AAB-FA8032F5AEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F6577F-C380-443D-9AAB-FA8032F5AEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F6577F-C380-443D-9AAB-FA8032F5AEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AEB42F7-F56C-4F29-BF6E-2394E9E09691}
+	EndGlobalSection
+EndGlobal

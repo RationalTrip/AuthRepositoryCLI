@@ -1,0 +1,13 @@
+CREATE DATABASE [AccountManagement]
+GO
+
+USE [AccountManagement]
+GO
+
+CREATE TABLE [LoginAuth]
+(
+	[AuthId] INT PRIMARY KEY IDENTITY, 
+	[Login] NVARCHAR(100) UNIQUE NOT NULL,
+	[Password] NVARCHAR(100) NOT NULL,
+	[Salt] NVARCHAR(100) NOT NULL
+)
